@@ -4,13 +4,13 @@ RSpec.describe FuelStation do
   describe 'initialize' do
     it 'exists' do
       attributes = {
-        station_name: "Target T2225",
-        fuel_type_code: "ELEC",
-        street_address: "1985 Sheridan Blvd.",
-        city: "Edgewater",
-        state: "CO",
-        zip: "80214",
-        access_days_time: "24 hours daily"
+          station_name: "Target T2225",
+          fuel_type_code: "ELEC",
+          street_address: "1985 Sheridan Blvd.",
+          city: "Edgewater",
+          state: "CO",
+          zip: "80214",
+          access_days_time: "24 hours daily"
       }
 
       station = FuelStation.new(attributes)
