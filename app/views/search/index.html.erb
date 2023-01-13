@@ -1,0 +1,14 @@
+<h1>Nearest Fuel Station</h1>
+
+<h3>Station Information</h3>
+<p>Name: <%= @station.name %></p>
+<p>Address: <%= @station.address %></p>
+<p>Fuel type: <%= @station.fuel_type %></p>
+<p>Access Times: <%= @station.access_times %></p>
+
+<h3>Directions Information</h3>
+<p>Distance: <%= @directions.distance %>
+<p>Travel time: <%= @directions.time %>
+<ol>Directions: <% @directions.directions.each do |info| %></ol>
+  <li><%= info %></li>
+<% end %>
